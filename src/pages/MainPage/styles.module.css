@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page{
+    width: 50%;
+    max-width: 640px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    justify-items: center;
+    justify-self: center;
+    border-radius: 20px;
+    background-color: rgb(241, 241, 241);
+}
+
+.header{
+    height: 80px;
+    width: 90%;
+    align-content: center;
+    text-align: center;
+    font-size: 30px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(155, 155, 155);
+    border-bottom-width: 3px;
+}
+
+.tools{
+    margin-top: 40px;
+    padding-bottom: 10px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(155, 155, 155);
+    border-bottom-width: 3px;
+}
+
+.tabs{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tabs button{
+    width: 50px;
+}
+
+.sortTools{
+    display: flex;
+    width: 100px;
+    justify-content: space-around;
+}
+
+.cards{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
